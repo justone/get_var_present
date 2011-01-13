@@ -20,7 +20,16 @@
 * Apache/Passenger
 * HA pair of servers behind LVS
 * Gluster to sync puppet data
+* Puppet data is managed by packages
 
 !SLIDE center
 
 ## &lt;diagram of puppet setup for the visual&gt; ##
+
+!SLIDE bullets incremental
+
+# Puppet development #
+
+* No puppetmaster
+* Puppet data installed via packages
+* Puppet run done with *prun*
