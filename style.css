@@ -1,0 +1,15 @@
+body, #preso, .slide {
+  /*background-color: black;*/
+  /*color: #ffffff;*/
+  height: 670px;
+  border: none;
+  margin: none;
+}
+
+#footer {
+    display: none;
+}
+
+/*a { text-decoration: none; color: #ffffff; }*/
+/*a:visited { text-decoration: none; color: #ffffff; }*/
+

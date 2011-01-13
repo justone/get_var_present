@@ -1,0 +1,13 @@
+{
+  "sections": [
+    { "section": "title" },
+    { "section": "about_me" },
+    { "section": "mediatemple" },
+    { "section": "rationale" },
+    { "section": "get_var" },
+    { "section": "get_secret" },
+    { "section": "extlookup" },
+    { "section": "conclusion" },
+    { "section": "end" }
+  ]
+}
