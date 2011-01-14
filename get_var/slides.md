@@ -79,31 +79,6 @@
 
     $variable = "value"
 
-!SLIDE bullets incremental
-# get\_var key variations #
-
-## "key" ##
-
-    module/var/main.yml
-    ---
-    key: value
-
-## "file:key" ##
-
-    module/var/file.yml
-    ---
-    key: value
-
-!SLIDE bullets incremental
-# get\_var key variations #
-
-## "file:key.subkey" ##
-
-    module/var/file.yml
-    ---
-    key:
-      subkey: value
-
 !SLIDE small
 # Configuring webserver proceses #
 

@@ -6,6 +6,7 @@
     { "section": "rationale" },
     { "section": "get_var" },
     { "section": "get_secret" },
+    { "section": "common" },
     { "section": "extlookup" },
     { "section": "conclusion" },
     { "section": "end" }
