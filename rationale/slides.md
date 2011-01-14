@@ -6,7 +6,7 @@
 
     @@@ puppet
     class db_server {
-        $db_username = 'app'
+        $db_username = 'db123'
         $db_password = 'supersecret'
 
         db_user { $db_username:
@@ -20,7 +20,7 @@
 
     @@@ puppet
     class app {
-        $db_username = 'app'
+        $db_username = 'db123'
         $db_password = 'supersecret'
 
         file { '/etc/app/access.yml':
