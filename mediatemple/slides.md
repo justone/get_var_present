@@ -28,6 +28,12 @@
 
 ![puppet.com](puppet_master.png)
 
+!SLIDE center
+
+# Puppetmaster load #
+
+![puppet.com](pm_load_compilation.png)
+
 !SLIDE bullets incremental
 
 # Puppet development #

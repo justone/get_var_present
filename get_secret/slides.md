@@ -69,3 +69,8 @@
         }
     }
 
+!SLIDE bullets incremental
+# Deploying production secrets #
+
+* Separate, locked down server
+* Rsync secrets to all puppetmasters
