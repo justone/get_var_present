@@ -18,13 +18,15 @@
 # Puppetmaster setup #
 
 * Apache/Passenger
-* HA pair of servers behind LVS
-* Gluster to sync puppet data
+* HA pair of servers using LVS
+* GlusterFS to sync puppet data
 * Puppet data is managed by packages
 
 !SLIDE center
 
-## &lt;diagram of puppet setup for the visual&gt; ##
+# Puppetmaster setup #
+
+![puppet.com](puppet_master.png)
 
 !SLIDE bullets incremental
 
