@@ -86,6 +86,6 @@
 
 # Solution needed #
 
-* Support different values for development/production
 * Production secret values out of source control
+* Support different values for development/production
 * As much data as possible with puppet module
