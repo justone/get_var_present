@@ -13,7 +13,7 @@
 
 # Puppet related commits #
 
-![mediatemple.net](commits.png)
+![mediatemple.net](commits-nomtp.png)
 
 !SLIDE bullets incremental
 

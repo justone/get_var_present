@@ -32,6 +32,20 @@
 
     @@@ puppet
     class db_server {
+        $db_username = 'db123'
+        $db_password = 'supersecret'
+
+        db_user { $db_username:
+            ensure => present,
+            password => $db_password,
+        }
+    }
+
+!SLIDE small
+# Creating a database user #
+
+    @@@ puppet
+    class db_server {
         $db_username = get_var('db_server', 'db_username')
         $db_password = get_secret('db_server', 'db_password')
 
@@ -55,6 +69,19 @@
     /etc/puppet/secret/db_server/main.yml
     ---
     db_password: supersecret
+
+!SLIDE small
+# Configuring database access #
+
+    @@@ puppet
+    class app {
+        $db_username = 'db123'
+        $db_password = 'supersecret'
+
+        file { '/etc/app/access.yml':
+            content => template('db_client/access.erb')
+        }
+    }
 
 !SLIDE small
 # Configuring database access #

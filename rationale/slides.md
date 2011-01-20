@@ -32,18 +32,30 @@
 # Problems #
 
 * Username/password is duplicated
-* Doesn't use a different value for development
 * Production password is in source control
+* Doesn't use a different value for development
 
 !SLIDE small
 # Configuring build warnings #
 
     @@@ puppet
     class build_server {
-        $error_email = 'builderrors@company.com'
+        $email = 'nate@mediatemple.net'
 
-        file { '/etc/ci/config.xml':
-            content => template('build_server/config.erb')
+        file { '/etc/ci/users/nate.xml':
+            content => template('build_server/user.xml.erb')
+        }
+    }
+
+!SLIDE small
+# Configuring nagios user #
+
+    @@@ puppet
+    class nagios_server {
+        $email = 'nate@mediatemple.net'
+
+        file { '/etc/nagios/users/nate.xml':
+            content => template('nagios_server/user.xml.erb')
         }
     }
 
@@ -58,7 +70,7 @@
 
     @@@ puppet
     class web_server {
-        $process_count = 40
+        $spare_servers = 40
 
         file { '/etc/web/server.conf':
             content => template('web_server/server.erb')
