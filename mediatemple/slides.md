@@ -5,13 +5,15 @@
 
 # Quick history #
 
-* 3 years ago: first commit
+* 2.5 years ago: first commit
 * year and a half ago: training
 * last year: major systems
 
 !SLIDE center
 
-## &lt;graph of puppet related commits&gt; ##
+# Puppet related commits #
+
+![mediatemple.net](commits.png)
 
 !SLIDE bullets incremental
 
@@ -19,20 +21,20 @@
 
 * Apache/Passenger
 * HA pair of servers using LVS
-* GlusterFS to sync puppet data
 * Puppet data is managed by packages
+* GlusterFS to sync puppet data
 
 !SLIDE center
 
 # Puppetmaster setup #
 
-![puppet.com](puppet_master.png)
+![mediatemple.net](puppet_master.png)
 
 !SLIDE center
 
 # Puppetmaster load #
 
-![puppet.com](pm_load_compilation.png)
+![mediatemple.net](pm_load_compilation.png)
 
 !SLIDE bullets incremental
 
