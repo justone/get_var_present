@@ -4,5 +4,5 @@
 !SLIDE bullets
 # Source and documentation #
 
-* http://github.com/mediatemple/get\_var
-* http://github.com/mediatemple/get\_var/presentation
+## http://github.com/mediatemple/get\_var ##
+![github.com](get_var-github.png)
