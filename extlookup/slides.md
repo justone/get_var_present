@@ -23,4 +23,4 @@
 # extlookup cons #
 
 * Data is managed separately
-* Heirarchical data isn't supported
+* Hierarchical data isn't supported
